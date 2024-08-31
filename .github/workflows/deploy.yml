@@ -28,5 +28,7 @@ jobs:
 
       - name: Deploy to server
         run: |
+          docker stop my-react-app || true
+          docker rm my-react-app || true
           # Run the new container from the built image
           docker run -d -p 8080:80 --name my-react-app my-react-app
