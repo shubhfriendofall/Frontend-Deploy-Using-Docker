@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React with Shubham efficiently.
+          Learn React with Shubham smartlys.
         </a>
       </header>
     </div>
